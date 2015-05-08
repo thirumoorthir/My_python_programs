@@ -2,7 +2,7 @@
 def amount_hand():
         print "The amount in your hand is %d" % balance
 
-while True:
+while True: #infinte loop starting. 
     choice = raw_input("What you want to do\n 1.For add amount \n 2.For subtract\n 3.For print balance \n 4.For exit this program \n Enter your choice:")
     f = open('balance1','r')
     balance=f.read()
@@ -28,5 +28,5 @@ while True:
         amount_hand()
     elif choice =='3':
         amount_hand()
-    elif choice =='4':
+    elif choice =='4': # break point of infinite loop.  
             break
