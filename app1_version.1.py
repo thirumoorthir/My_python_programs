@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # This is an simple python program to read content in an file and compute it and stores result.
 import decimal
 def amount_hand():
