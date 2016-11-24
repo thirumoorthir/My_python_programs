@@ -1,5 +1,6 @@
 #!/usr/bin/python:
 # -*- coding: utf-8 -*-
+#this program is to download image from an url with different name on every day
 import facebook
 import time,os
 img_date= time.strftime("%d%m")#This line outputs date format as DDMM,we want this on our code to wget image files from the URL
